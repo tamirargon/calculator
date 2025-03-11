@@ -12,5 +12,5 @@ jobs:
       run: env
 
     - name: test
-      run: echo ${{ fromJson(github) }}
+      run: echo ${{ toJson(github) }}
       
